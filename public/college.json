@@ -1,0 +1,39 @@
+[
+   {
+     "collegeName": "Springfield Institute of Technology",
+     "collegeImage": "https://example.com/images/springfield.jpg",
+     "admissionDates": "2025-03-01 to 2025-04-30",
+     "events": [
+       "TechFest 2025",
+       "Annual Science Expo",
+       "Coding Hackathon"
+     ],
+     "researchHistory": "Renowned for AI and Machine Learning research, published over 200 papers.",
+     "sports": ["Basketball", "Soccer", "Swimming"]
+   },
+   {
+     "collegeName": "Green Valley University",
+     "collegeImage": "https://example.com/images/greenvalley.jpg",
+     "admissionDates": "2025-02-15 to 2025-04-15",
+     "events": [
+       "Cultural Fest",
+       "Eco Green Summit",
+       "Startup Pitch Day"
+     ],
+     "researchHistory": "Focused on environmental science, known for 150+ groundbreaking studies.",
+     "sports": ["Cricket", "Volleyball", "Badminton"]
+   },
+   {
+     "collegeName": "Riverdale College of Arts and Sciences",
+     "collegeImage": "https://example.com/images/riverdale.jpg",
+     "admissionDates": "2025-01-20 to 2025-03-20",
+     "events": [
+       "Art Exhibition 2025",
+       "Annual Debate Championship",
+       "Research Symposium"
+     ],
+     "researchHistory": "Specialized in humanities and social sciences with 180+ research publications.",
+     "sports": ["Tennis", "Track and Field", "Table Tennis"]
+   }
+ ]
+ 
