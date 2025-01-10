@@ -34,12 +34,12 @@ export const router = createBrowserRouter([
          {
             path: '/admission/:id',
             element: <PrivateRoute><AdmissionForm /></PrivateRoute>,
-            loader: ({ params }) => fetch(`http://localhost:5000/collegeName/${params.id}`)
+            loader: ({ params }) => fetch(`https://rtk-college-server.vercel.app/collegeName/${params.id}`)
          },
          {
             path: '/college/:id',
             element: <PrivateRoute><CollegeDetails /></PrivateRoute>,
-            loader: ({ params }) => fetch(`http://localhost:5000/college/${params.id}`)
+            loader: ({ params }) => fetch(`https://rtk-college-server.vercel.app/college/${params.id}`)
          }
       ]
    },
