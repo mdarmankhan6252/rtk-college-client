@@ -1,39 +1,194 @@
 [
-   {
-     "collegeName": "Springfield Institute of Technology",
-     "collegeImage": "https://example.com/images/springfield.jpg",
-     "admissionDates": "2025-03-01 to 2025-04-30",
-     "events": [
-       "TechFest 2025",
-       "Annual Science Expo",
-       "Coding Hackathon"
-     ],
-     "researchHistory": "Renowned for AI and Machine Learning research, published over 200 papers.",
-     "sports": ["Basketball", "Soccer", "Swimming"]
-   },
-   {
-     "collegeName": "Green Valley University",
-     "collegeImage": "https://example.com/images/greenvalley.jpg",
-     "admissionDates": "2025-02-15 to 2025-04-15",
-     "events": [
-       "Cultural Fest",
-       "Eco Green Summit",
-       "Startup Pitch Day"
-     ],
-     "researchHistory": "Focused on environmental science, known for 150+ groundbreaking studies.",
-     "sports": ["Cricket", "Volleyball", "Badminton"]
-   },
-   {
-     "collegeName": "Riverdale College of Arts and Sciences",
-     "collegeImage": "https://example.com/images/riverdale.jpg",
-     "admissionDates": "2025-01-20 to 2025-03-20",
-     "events": [
-       "Art Exhibition 2025",
-       "Annual Debate Championship",
-       "Research Symposium"
-     ],
-     "researchHistory": "Specialized in humanities and social sciences with 180+ research publications.",
-     "sports": ["Tennis", "Track and Field", "Table Tennis"]
-   }
- ]
- 
+  {
+    "collegeName": "Pinewood University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-04-01 to 2025-05-31",
+    "events": [
+      "Spring Gala",
+      "Robotics Challenge",
+      "Entrepreneurship Workshop"
+    ],
+    "researchHistory": "Pioneered in renewable energy research with 100+ projects completed.",
+    "sports": ["Basketball", "Baseball", "Swimming"]
+  },
+  {
+    "collegeName": "Lakeshore Institute of Technology",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-15 to 2025-05-15",
+    "events": [
+      "Tech Carnival",
+      "AI Summit",
+      "Coding Marathon"
+    ],
+    "researchHistory": "Notable for contributions to nanotechnology with over 120 patents filed.",
+    "sports": ["Soccer", "Volleyball", "Track and Field"]
+  },
+  {
+    "collegeName": "Hillside University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-02-10 to 2025-04-30",
+    "events": [
+      "Science Carnival",
+      "Cultural Extravaganza",
+      "Math Olympiad"
+    ],
+    "researchHistory": "Renowned for research in space sciences with 80+ satellite projects.",
+    "sports": ["Tennis", "Basketball", "Swimming"]
+  },
+  {
+    "collegeName": "Silverstone College",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-01-25 to 2025-03-25",
+    "events": [
+      "Art Fiesta",
+      "Business Leadership Conference",
+      "Hackathon 2025"
+    ],
+    "researchHistory": "Specialized in biotechnology with over 200 research articles.",
+    "sports": ["Cricket", "Soccer", "Table Tennis"]
+  },
+  {
+    "collegeName": "Golden Gate Institute",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-01 to 2025-04-30",
+    "events": [
+      "Startup Expo",
+      "Innovation Forum",
+      "Cultural Night"
+    ],
+    "researchHistory": "Leading in agricultural technology innovations with 150+ breakthroughs.",
+    "sports": ["Basketball", "Badminton", "Swimming"]
+  },
+  {
+    "collegeName": "Summit College of Engineering",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-02-15 to 2025-04-15",
+    "events": [
+      "Tech Symposium",
+      "Annual Hackathon",
+      "Robotics Expo"
+    ],
+    "researchHistory": "Renowned for groundbreaking AI technologies, 250+ papers published.",
+    "sports": ["Soccer", "Cricket", "Volleyball"]
+  },
+  {
+    "collegeName": "Evergreen College",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-01-30 to 2025-03-30",
+    "events": [
+      "Environmental Awareness Day",
+      "Cultural Fest",
+      "Photography Contest"
+    ],
+    "researchHistory": "Leading in environmental sustainability research with 170+ projects.",
+    "sports": ["Track and Field", "Badminton", "Soccer"]
+  },
+  {
+    "collegeName": "Brighton Institute of Science",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-10 to 2025-05-10",
+    "events": [
+      "Innovation Week",
+      "Science Quiz",
+      "Astronomy Night"
+    ],
+    "researchHistory": "Specialized in physics and material sciences with 300+ publications.",
+    "sports": ["Tennis", "Soccer", "Basketball"]
+  },
+  {
+    "collegeName": "Blue Ridge University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-04-05 to 2025-06-05",
+    "events": [
+      "Tech Expo",
+      "Annual Drama Fest",
+      "Math Championship"
+    ],
+    "researchHistory": "Renowned for quantum computing research with 120+ patents filed.",
+    "sports": ["Basketball", "Swimming", "Table Tennis"]
+  },
+  {
+    "collegeName": "Mountain View College",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-02-20 to 2025-04-20",
+    "events": [
+      "Eco Summit",
+      "Cultural Night",
+      "Startup Bootcamp"
+    ],
+    "researchHistory": "Renowned for renewable energy projects with 200+ successful deployments.",
+    "sports": ["Track and Field", "Basketball", "Swimming"]
+  },
+  {
+    "collegeName": "Cedarwood University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-01 to 2025-05-01",
+    "events": [
+      "Tech Carnival",
+      "Music Fest",
+      "Innovation Expo"
+    ],
+    "researchHistory": "Focused on robotics and automation with 180+ innovative projects.",
+    "sports": ["Soccer", "Cricket", "Tennis"]
+  },
+  {
+    "collegeName": "Palm Valley Institute",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-02-15 to 2025-04-15",
+    "events": [
+      "Startup Day",
+      "Robotics Championship",
+      "Debate Competition"
+    ],
+    "researchHistory": "Specialized in agricultural science with over 160+ research projects.",
+    "sports": ["Cricket", "Volleyball", "Track and Field"]
+  },
+  {
+    "collegeName": "Highland University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-10 to 2025-05-10",
+    "events": [
+      "Tech Talks",
+      "Cultural Fest",
+      "Astronomy Fest"
+    ],
+    "researchHistory": "Specialized in astronomy and space sciences with 100+ successful missions.",
+    "sports": ["Basketball", "Badminton", "Soccer"]
+  },
+  {
+    "collegeName": "Maple Leaf University",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-04-01 to 2025-06-01",
+    "events": [
+      "Business Summit",
+      "Science Expo",
+      "AI Workshop"
+    ],
+    "researchHistory": "Leading in AI and machine learning with 220+ innovative papers.",
+    "sports": ["Soccer", "Tennis", "Volleyball"]
+  },
+  {
+    "collegeName": "Sunset Valley Institute",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-02-25 to 2025-04-25",
+    "events": [
+      "Music Carnival",
+      "Hackathon",
+      "Entrepreneurship Day"
+    ],
+    "researchHistory": "Specialized in biomedical sciences with over 130 impactful studies.",
+    "sports": ["Basketball", "Tennis", "Table Tennis"]
+  },
+  {
+    "collegeName": "Northfield College of Technology",
+    "collegeImage": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "admissionDates": "2025-03-05 to 2025-05-05",
+    "events": [
+      "AI Innovations",
+      "Cultural Night",
+      "Debate Marathon"
+    ],
+    "researchHistory": "Leading in cyber security research with 100+ solutions deployed.",
+    "sports": ["Soccer", "Basketball", "Badminton"]
+  }
+]

@@ -1,17 +1,20 @@
-import { useEffect, useState } from "react";
 import CollegeCard from "../../components/CollegeCard";
 import Title from "../../shared/Title";
 import { Link } from "react-router-dom";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
+import { useQuery } from "@tanstack/react-query"
 
 const PopularColleges = () => {
-   const [colleges, setColleges] = useState([]);
-   useEffect(() => {
-      fetch('college.json')
-         .then(res => res.json())
-         .then(data => setColleges(data))
-   }, [])
+   const axiosPublic = useAxiosPublic();
 
-   console.log(colleges);
+   const { data: colleges = [], } = useQuery({
+      queryKey: ['popularCollege'],
+      queryFn: async () => {
+         const { data } = await axiosPublic('/popularCollege')
+         return data;
+      }
+   })
+
 
    return (
       <div className="max-w-7xl mx-auto px-3">

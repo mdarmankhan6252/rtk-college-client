@@ -9,7 +9,7 @@ const ResearchCard = ({ research }) => {
          </div>
          <div className="px-2 py-3 space-y-3">
          
-            <Link to='/' className="text-lg font-semibold text-gray-700 hover:underline">{title}</Link>
+            <Link to='https://files.eric.ed.gov/fulltext/EJ1172284.pdf'target="_blank" className="text-lg font-semibold text-gray-700 hover:underline hover:text-blue-500">{title}</Link>
             <p className="text-[#959494]">{desc.slice(0, 40)}...</p>
          </div>
       </div>

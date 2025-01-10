@@ -1,10 +1,10 @@
-import AdmissionBanner from "./AdmissionBanner";
+import SharedBanner from "../../shared/SharedBanner";
 import AllColleges from "./AllColleges";
 
 const Admission = () => {
    return (
       <div>
-         <AdmissionBanner />
+         <SharedBanner title="Admission"/>
          <AllColleges />
 
       </div>
