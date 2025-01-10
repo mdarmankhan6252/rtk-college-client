@@ -1,19 +1,22 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import toast from 'react-hot-toast'
-import useAuth from "../../hooks/useAuth";
 import GoogleLogin from "./GoogleLogin";
 import { useState } from "react";
 import { PiSpinnerGapThin } from "react-icons/pi";
 import axios from 'axios'
 import useAxiosPublic from "../../hooks/useAxiosPublic";
+import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
 
     const [loading, setLoading] = useState(false)
-    const axiosPublic = useAxiosPublic();
 
     const { createUser, updateUserProfile, user, setUser } = useAuth()
     const navigate = useNavigate();
+
+    if(user){
+        return <Navigate to='/'></Navigate>
+    }
 
     const imageUpload = `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_ImgBB_api_key}`
 
@@ -48,15 +51,8 @@ const Register = () => {
                 .then(() => {
                     updateUserProfile(name, photo)
                     setUser({ ...user, displayName: name, photoURL: photo })
-
-                    const postedUser = { name, photo, email, role: 'general' }
-
-                    axiosPublic.post('/user', postedUser).then(res => {
-                        if (res.insertedId) {
-                            toast.success("Sign Up Successful!")
-                            navigate('/')
-                        }
-                    })
+                    form.reset()
+                    navigate('/')
                 })
                 .catch(err => {
                     console.log(err);

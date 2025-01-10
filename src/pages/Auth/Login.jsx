@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import toast from 'react-hot-toast'
 import { useState } from "react";
 import { PiSpinnerGapThin } from "react-icons/pi";
@@ -7,8 +7,12 @@ import GoogleLogin from "./GoogleLogin";
 const Login = () => {
 
     const navigate = useNavigate();
-    const { signIn } = useAuth();
+    const { signIn, user } = useAuth();
     const [loading, setLoading] = useState(false)
+    
+    if (user) {
+        return <Navigate to='/'></Navigate>
+    }
 
     const handleLogin = async e => {
         e.preventDefault();
